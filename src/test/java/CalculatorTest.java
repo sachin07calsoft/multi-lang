@@ -1,5 +1,5 @@
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 
@@ -25,8 +25,10 @@ public class CalculatorTest {
         assertEquals(2.0, calculator.divide(6, 3), 0.01);
     }
 
-    @Test(expected = ArithmeticException.class)
+    @Test
     public void testDivideByZero() {
-        calculator.divide(1, 0);
+        assertThrows(ArithmeticException.class, () -> {
+            calculator.divide(1, 0);
+        });
     }
 }
