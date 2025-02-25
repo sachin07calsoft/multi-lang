@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.134" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.225" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
-    <property name="sun.java.command" value="/workspaces/multi-lang/target/surefire/surefirebooter16621701779496054808.jar /workspaces/multi-lang/target/surefire 2025-02-25T10-42-31_441-jvmRun1 surefire5139541796074882188tmp surefire_04631370817635468323tmp"/>
+    <property name="sun.java.command" value="/workspaces/multi-lang/target/surefire/surefirebooter3214371258437009914.jar /workspaces/multi-lang/target/surefire 2025-02-25T12-08-22_158-jvmRun1 surefire12109262758139059613tmp surefire_013966866189966120563tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/multi-lang/target/test-classes:/workspaces/multi-lang/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/workspaces/multi-lang/target/surefire/surefirebooter16621701779496054808.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/multi-lang/target/surefire/surefirebooter3214371258437009914.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -56,9 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDivideByZero" classname="CalculatorTest" time="0.059"/>
-  <testcase name="testAdd" classname="CalculatorTest" time="0.005"/>
+  <testcase name="testDivideByZero" classname="CalculatorTest" time="0.104"/>
+  <testcase name="testAdd" classname="CalculatorTest" time="0.002"/>
   <testcase name="testSubtract" classname="CalculatorTest" time="0.001"/>
-  <testcase name="testDivide" classname="CalculatorTest" time="0.013"/>
-  <testcase name="testMultiply" classname="CalculatorTest" time="0.003"/>
+  <testcase name="testDivide" classname="CalculatorTest" time="0.002"/>
+  <testcase name="testMultiply" classname="CalculatorTest" time="0.001"/>
 </testsuite>
